@@ -14,6 +14,7 @@
 		22147CCE1EAAC5D9008C0049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22147CCD1EAAC5D9008C0049 /* Assets.xcassets */; };
 		22147CD11EAAC5D9008C0049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22147CCF1EAAC5D9008C0049 /* LaunchScreen.storyboard */; };
 		22147CE71EAAC5D9008C0049 /* VidaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22147CE61EAAC5D9008C0049 /* VidaoUITests.swift */; };
+		224C65031EAEA16200C0E100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22147CCA1EAAC5D9008C0049 /* Main.storyboard */; };
 		225DA8CC1EAE67890016E4EF /* FirstViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225DA8CB1EAE67890016E4EF /* FirstViewControllerTest.swift */; };
 		225DA8CE1EAE67930016E4EF /* SecondViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225DA8CD1EAE67930016E4EF /* SecondViewControllerTest.swift */; };
 		225DA8D01EAE6F430016E4EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225DA8CF1EAE6F430016E4EF /* GoogleService-Info.plist */; };
@@ -304,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224C65031EAEA16200C0E100 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

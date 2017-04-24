@@ -15,7 +15,7 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ref = FIRDatabase.database().reference()
+        self.setUpDatabase()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -26,9 +26,13 @@ class FirstViewController: UIViewController {
 
     func postMsg(msg : String) -> Bool{
         var result = false
-        let key = self.ref.child("Messages").childByAutoId().setValue(msg)
+        self.ref.child("Message").childByAutoId().setValue(msg)
         result = true
         return result
+    }
+    
+    func setUpDatabase(){
+        ref = FIRDatabase.database().reference()
     }
 }
 

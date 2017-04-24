@@ -33,9 +33,12 @@ class FirstViewControllerTest: XCTestCase {
     }
     
     func testPostMsg() {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle(for: type(of: self)))
+        let nc = storyboard.instantiateInitialViewController() as? UINavigationController
         let vc : FirstViewController = FirstViewController()
-        vc.viewDidLoad()
-        let result = vc.postMsg(msg: "TestMessage")
+        vc.setUpDatabase()
+        let result = vc.postMsg(msg: "TestMessageTwo")
         XCTAssertTrue(result)
     }
         
