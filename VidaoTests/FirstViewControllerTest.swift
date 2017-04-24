@@ -6,8 +6,6 @@
 //  Copyright © 2017 David Kwok Ho Chan. All rights reserved.
 //
 
-import Foundation
-
 //View 1:
 //
 //•The main chat view, where user can type in text and send it to the public, the message should be stored in Firebase Real-time Database.
@@ -18,3 +16,27 @@ import Foundation
 //2)•There is a send button next to the text-view that sends the message to Firebase, after finish sending the message, the text inside the text view should be cleared and the text view should resume its original size.
 //3)•After sending the text, the message list should scroll to the latest message.
 //4)•Each cell in the chat list should have dynamic height based on it’s text content
+
+import XCTest
+@testable import Vidao
+
+class FirstViewControllerTest: XCTestCase {
+    
+    override func setUp() {
+        super.setUp()
+        // Put setup code here. This method is called before the invocation of each test method in the class.
+    }
+    
+    override func tearDown() {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
+    }
+    
+    func testPostMsg() {
+        let vc : FirstViewController = FirstViewController()
+        vc.viewDidLoad()
+        let result = vc.postMsg(msg: "TestMessage")
+        XCTAssertTrue(result)
+    }
+        
+}

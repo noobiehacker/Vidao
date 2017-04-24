@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class FirstViewController: UIViewController {
 
+    var ref:FIRDatabaseReference!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        ref = FIRDatabase.database().reference()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +24,11 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func postMsg(msg : String) -> Bool{
+        var result = false
+        let key = self.ref.child("Messages").childByAutoId().setValue(msg)
+        result = true
+        return result
+    }
 }
 

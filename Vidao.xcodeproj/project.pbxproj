@@ -13,7 +13,6 @@
 		22147CCC1EAAC5D9008C0049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22147CCA1EAAC5D9008C0049 /* Main.storyboard */; };
 		22147CCE1EAAC5D9008C0049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22147CCD1EAAC5D9008C0049 /* Assets.xcassets */; };
 		22147CD11EAAC5D9008C0049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22147CCF1EAAC5D9008C0049 /* LaunchScreen.storyboard */; };
-		22147CDC1EAAC5D9008C0049 /* VidaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22147CDB1EAAC5D9008C0049 /* VidaoTests.swift */; };
 		22147CE71EAAC5D9008C0049 /* VidaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22147CE61EAAC5D9008C0049 /* VidaoUITests.swift */; };
 		225DA8CC1EAE67890016E4EF /* FirstViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225DA8CB1EAE67890016E4EF /* FirstViewControllerTest.swift */; };
 		225DA8CE1EAE67930016E4EF /* SecondViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225DA8CD1EAE67930016E4EF /* SecondViewControllerTest.swift */; };
@@ -50,7 +49,6 @@
 		22147CD01EAAC5D9008C0049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22147CD21EAAC5D9008C0049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22147CD71EAAC5D9008C0049 /* VidaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22147CDB1EAAC5D9008C0049 /* VidaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidaoTests.swift; sourceTree = "<group>"; };
 		22147CDD1EAAC5D9008C0049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22147CE21EAAC5D9008C0049 /* VidaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22147CE61EAAC5D9008C0049 /* VidaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidaoUITests.swift; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 		22147CDA1EAAC5D9008C0049 /* VidaoTests */ = {
 			isa = PBXGroup;
 			children = (
-				22147CDB1EAAC5D9008C0049 /* VidaoTests.swift */,
 				22147CDD1EAAC5D9008C0049 /* Info.plist */,
 				225DA8CB1EAE67890016E4EF /* FirstViewControllerTest.swift */,
 				225DA8CD1EAE67930016E4EF /* SecondViewControllerTest.swift */,
@@ -472,7 +469,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22147CDC1EAAC5D9008C0049 /* VidaoTests.swift in Sources */,
 				225DA8CC1EAE67890016E4EF /* FirstViewControllerTest.swift in Sources */,
 				225DA8CE1EAE67930016E4EF /* SecondViewControllerTest.swift in Sources */,
 			);
