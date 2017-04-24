@@ -17,6 +17,12 @@
 //3)•After sending the text, the message list should scroll to the latest message.
 //4)•Each cell in the chat list should have dynamic height based on it’s text content
 
+//Todo Test
+//
+//1)Implement Auto Scroll Up
+//2)Cell In Message List Should Have Dynamic Height
+//3)TextView Area Should Change Its Height Bssed On The Current Text The User Has Type In
+
 import XCTest
 @testable import Vidao
 
@@ -40,6 +46,18 @@ class FirstViewControllerTest: XCTestCase {
         vc.setUpDatabase()
         let result = vc.postMsg(msg: "TestMessageTwo")
         XCTAssertTrue(result)
+    }
+    
+    func testTextViewUpdateHeight() {
+        
+    }
+    
+    func testListShouldScrollUp() {
+        
+    }
+    
+    func testMessageListHasDynamicHeight(){
+        
     }
         
 }
