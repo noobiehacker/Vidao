@@ -15,6 +15,8 @@
 		22147CD11EAAC5D9008C0049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22147CCF1EAAC5D9008C0049 /* LaunchScreen.storyboard */; };
 		22147CDC1EAAC5D9008C0049 /* VidaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22147CDB1EAAC5D9008C0049 /* VidaoTests.swift */; };
 		22147CE71EAAC5D9008C0049 /* VidaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22147CE61EAAC5D9008C0049 /* VidaoUITests.swift */; };
+		225DA8CC1EAE67890016E4EF /* FirstViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225DA8CB1EAE67890016E4EF /* FirstViewControllerTest.swift */; };
+		225DA8CE1EAE67930016E4EF /* SecondViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225DA8CD1EAE67930016E4EF /* SecondViewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		22147CE21EAAC5D9008C0049 /* VidaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22147CE61EAAC5D9008C0049 /* VidaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidaoUITests.swift; sourceTree = "<group>"; };
 		22147CE81EAAC5D9008C0049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225DA8CB1EAE67890016E4EF /* FirstViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewControllerTest.swift; sourceTree = "<group>"; };
+		225DA8CD1EAE67930016E4EF /* SecondViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 			children = (
 				22147CDB1EAAC5D9008C0049 /* VidaoTests.swift */,
 				22147CDD1EAAC5D9008C0049 /* Info.plist */,
+				225DA8CB1EAE67890016E4EF /* FirstViewControllerTest.swift */,
+				225DA8CD1EAE67930016E4EF /* SecondViewControllerTest.swift */,
 			);
 			path = VidaoTests;
 			sourceTree = "<group>";
@@ -276,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				22147CDC1EAAC5D9008C0049 /* VidaoTests.swift in Sources */,
+				225DA8CC1EAE67890016E4EF /* FirstViewControllerTest.swift in Sources */,
+				225DA8CE1EAE67930016E4EF /* SecondViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -408,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -520,6 +528,7 @@
 				22147CED1EAAC5D9008C0049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22147CEE1EAAC5D9008C0049 /* Build configuration list for PBXNativeTarget "VidaoTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +537,7 @@
 				22147CF01EAAC5D9008C0049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22147CF11EAAC5D9008C0049 /* Build configuration list for PBXNativeTarget "VidaoUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +546,7 @@
 				22147CF31EAAC5D9008C0049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
