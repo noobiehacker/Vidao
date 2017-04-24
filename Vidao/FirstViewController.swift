@@ -23,16 +23,16 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    func setUpDatabase(){
+        ref = FIRDatabase.database().reference()
+    }
+    
     func postMsg(msg : String) -> Bool{
         var result = false
         self.ref.child("Message").childByAutoId().setValue(msg)
         result = true
         return result
-    }
-    
-    func setUpDatabase(){
-        ref = FIRDatabase.database().reference()
     }
 }
 
