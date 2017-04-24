@@ -17,6 +17,10 @@
 		22147CE71EAAC5D9008C0049 /* VidaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22147CE61EAAC5D9008C0049 /* VidaoUITests.swift */; };
 		225DA8CC1EAE67890016E4EF /* FirstViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225DA8CB1EAE67890016E4EF /* FirstViewControllerTest.swift */; };
 		225DA8CE1EAE67930016E4EF /* SecondViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225DA8CD1EAE67930016E4EF /* SecondViewControllerTest.swift */; };
+		225DA8D01EAE6F430016E4EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225DA8CF1EAE6F430016E4EF /* GoogleService-Info.plist */; };
+		57C0489273F2830A162F78C5 /* Pods_VidaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461E7112CE098058999FD2D9 /* Pods_VidaoUITests.framework */; };
+		7C41A22F86FA74E0D67AF0D0 /* Pods_VidaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A117BDD323A005695A1A1268 /* Pods_VidaoTests.framework */; };
+		DC1A982946E1C4571E8EE19F /* Pods_Vidao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C075F34D807F51BD1C1425D3 /* Pods_Vidao.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,16 @@
 		22147CE81EAAC5D9008C0049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		225DA8CB1EAE67890016E4EF /* FirstViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewControllerTest.swift; sourceTree = "<group>"; };
 		225DA8CD1EAE67930016E4EF /* SecondViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewControllerTest.swift; sourceTree = "<group>"; };
+		225DA8CF1EAE6F430016E4EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		461E7112CE098058999FD2D9 /* Pods_VidaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VidaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB1BD81A2663C5999AE0910 /* Pods-VidaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VidaoUITests/Pods-VidaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C398B710B200F732C24E597 /* Pods-VidaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidaoUITests/Pods-VidaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60FF96DE70D8467518594CB7 /* Pods-Vidao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vidao.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vidao/Pods-Vidao.release.xcconfig"; sourceTree = "<group>"; };
+		6A5726117756187E9DB772F1 /* Pods-Vidao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vidao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vidao/Pods-Vidao.debug.xcconfig"; sourceTree = "<group>"; };
+		A117BDD323A005695A1A1268 /* Pods_VidaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VidaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AC4B90FE0578BC2CC05F92 /* Pods-VidaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidaoTests/Pods-VidaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9D6267010955FCBDAC42080 /* Pods-VidaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VidaoTests/Pods-VidaoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C075F34D807F51BD1C1425D3 /* Pods_Vidao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vidao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1A982946E1C4571E8EE19F /* Pods_Vidao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C41A22F86FA74E0D67AF0D0 /* Pods_VidaoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C0489273F2830A162F78C5 /* Pods_VidaoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		122DF1A2CBDAEA5367E5FC76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C075F34D807F51BD1C1425D3 /* Pods_Vidao.framework */,
+				A117BDD323A005695A1A1268 /* Pods_VidaoTests.framework */,
+				461E7112CE098058999FD2D9 /* Pods_VidaoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		22147CB81EAAC5D9008C0049 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +114,8 @@
 				22147CDA1EAAC5D9008C0049 /* VidaoTests */,
 				22147CE51EAAC5D9008C0049 /* VidaoUITests */,
 				22147CC21EAAC5D9008C0049 /* Products */,
+				FEC5BCCC335D61291184D4BC /* Pods */,
+				122DF1A2CBDAEA5367E5FC76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +139,7 @@
 				22147CCD1EAAC5D9008C0049 /* Assets.xcassets */,
 				22147CCF1EAAC5D9008C0049 /* LaunchScreen.storyboard */,
 				22147CD21EAAC5D9008C0049 /* Info.plist */,
+				225DA8CF1EAE6F430016E4EF /* GoogleService-Info.plist */,
 			);
 			path = Vidao;
 			sourceTree = "<group>";
@@ -134,6 +164,19 @@
 			path = VidaoUITests;
 			sourceTree = "<group>";
 		};
+		FEC5BCCC335D61291184D4BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A5726117756187E9DB772F1 /* Pods-Vidao.debug.xcconfig */,
+				60FF96DE70D8467518594CB7 /* Pods-Vidao.release.xcconfig */,
+				B8AC4B90FE0578BC2CC05F92 /* Pods-VidaoTests.debug.xcconfig */,
+				B9D6267010955FCBDAC42080 /* Pods-VidaoTests.release.xcconfig */,
+				5C398B710B200F732C24E597 /* Pods-VidaoUITests.debug.xcconfig */,
+				4EB1BD81A2663C5999AE0910 /* Pods-VidaoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22147CEB1EAAC5D9008C0049 /* Build configuration list for PBXNativeTarget "Vidao" */;
 			buildPhases = (
+				B787691D29D6C14CF6B317F1 /* [CP] Check Pods Manifest.lock */,
 				22147CBD1EAAC5D9008C0049 /* Sources */,
 				22147CBE1EAAC5D9008C0049 /* Frameworks */,
 				22147CBF1EAAC5D9008C0049 /* Resources */,
+				18DF8CB7A77F6C4DD9FC49CC /* [CP] Embed Pods Frameworks */,
+				AC6837DBEAC473E3BF83D267 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22147CEE1EAAC5D9008C0049 /* Build configuration list for PBXNativeTarget "VidaoTests" */;
 			buildPhases = (
+				ED73BDF94D1D4CDE22A53CBB /* [CP] Check Pods Manifest.lock */,
 				22147CD31EAAC5D9008C0049 /* Sources */,
 				22147CD41EAAC5D9008C0049 /* Frameworks */,
 				22147CD51EAAC5D9008C0049 /* Resources */,
+				B8C1144DCE704C1C3760960A /* [CP] Embed Pods Frameworks */,
+				3303794475185BE080FAEA03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22147CF11EAAC5D9008C0049 /* Build configuration list for PBXNativeTarget "VidaoUITests" */;
 			buildPhases = (
+				34EB4BA338BAB455890B4EF0 /* [CP] Check Pods Manifest.lock */,
 				22147CDE1EAAC5D9008C0049 /* Sources */,
 				22147CDF1EAAC5D9008C0049 /* Frameworks */,
 				22147CE01EAAC5D9008C0049 /* Resources */,
+				8B62E8860D74B28EF557BBD9 /* [CP] Embed Pods Frameworks */,
+				2ED41B9B59E7771E2E994DF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22147CD11EAAC5D9008C0049 /* LaunchScreen.storyboard in Resources */,
+				225DA8D01EAE6F430016E4EF /* GoogleService-Info.plist in Resources */,
 				22147CCE1EAAC5D9008C0049 /* Assets.xcassets in Resources */,
 				22147CCC1EAAC5D9008C0049 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +318,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18DF8CB7A77F6C4DD9FC49CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vidao/Pods-Vidao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ED41B9B59E7771E2E994DF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VidaoUITests/Pods-VidaoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3303794475185BE080FAEA03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VidaoTests/Pods-VidaoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34EB4BA338BAB455890B4EF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B62E8860D74B28EF557BBD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VidaoUITests/Pods-VidaoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6837DBEAC473E3BF83D267 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vidao/Pods-Vidao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B787691D29D6C14CF6B317F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C1144DCE704C1C3760960A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VidaoTests/Pods-VidaoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED73BDF94D1D4CDE22A53CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22147CBD1EAAC5D9008C0049 /* Sources */ = {
@@ -427,6 +618,7 @@
 		};
 		22147CEC1EAAC5D9008C0049 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5726117756187E9DB772F1 /* Pods-Vidao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J9T57DG7T3;
@@ -440,6 +632,7 @@
 		};
 		22147CED1EAAC5D9008C0049 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60FF96DE70D8467518594CB7 /* Pods-Vidao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J9T57DG7T3;
@@ -453,6 +646,7 @@
 		};
 		22147CEF1EAAC5D9008C0049 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AC4B90FE0578BC2CC05F92 /* Pods-VidaoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +662,7 @@
 		};
 		22147CF01EAAC5D9008C0049 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D6267010955FCBDAC42080 /* Pods-VidaoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,6 +678,7 @@
 		};
 		22147CF21EAAC5D9008C0049 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C398B710B200F732C24E597 /* Pods-VidaoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J9T57DG7T3;
@@ -497,6 +693,7 @@
 		};
 		22147CF31EAAC5D9008C0049 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB1BD81A2663C5999AE0910 /* Pods-VidaoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J9T57DG7T3;
