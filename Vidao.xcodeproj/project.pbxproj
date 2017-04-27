@@ -18,6 +18,7 @@
 		225DA8CC1EAE67890016E4EF /* FirstViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225DA8CB1EAE67890016E4EF /* FirstViewControllerTest.swift */; };
 		225DA8CE1EAE67930016E4EF /* SecondViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225DA8CD1EAE67930016E4EF /* SecondViewControllerTest.swift */; };
 		225DA8D01EAE6F430016E4EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225DA8CF1EAE6F430016E4EF /* GoogleService-Info.plist */; };
+		22FA743D1EB25E640049E879 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA743C1EB25E640049E879 /* CustomCell.swift */; };
 		57C0489273F2830A162F78C5 /* Pods_VidaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461E7112CE098058999FD2D9 /* Pods_VidaoUITests.framework */; };
 		7C41A22F86FA74E0D67AF0D0 /* Pods_VidaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A117BDD323A005695A1A1268 /* Pods_VidaoTests.framework */; };
 		DC1A982946E1C4571E8EE19F /* Pods_Vidao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C075F34D807F51BD1C1425D3 /* Pods_Vidao.framework */; };
@@ -57,6 +58,7 @@
 		225DA8CB1EAE67890016E4EF /* FirstViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewControllerTest.swift; sourceTree = "<group>"; };
 		225DA8CD1EAE67930016E4EF /* SecondViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewControllerTest.swift; sourceTree = "<group>"; };
 		225DA8CF1EAE6F430016E4EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22FA743C1EB25E640049E879 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		461E7112CE098058999FD2D9 /* Pods_VidaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VidaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB1BD81A2663C5999AE0910 /* Pods-VidaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VidaoUITests/Pods-VidaoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5C398B710B200F732C24E597 /* Pods-VidaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidaoUITests/Pods-VidaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				22147CCF1EAAC5D9008C0049 /* LaunchScreen.storyboard */,
 				22147CD21EAAC5D9008C0049 /* Info.plist */,
 				225DA8CF1EAE6F430016E4EF /* GoogleService-Info.plist */,
+				22FA743C1EB25E640049E879 /* CustomCell.swift */,
 			);
 			path = Vidao;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			files = (
 				22147CC91EAAC5D9008C0049 /* SecondViewController.swift in Sources */,
 				22147CC51EAAC5D9008C0049 /* AppDelegate.swift in Sources */,
+				22FA743D1EB25E640049E879 /* CustomCell.swift in Sources */,
 				22147CC71EAAC5D9008C0049 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

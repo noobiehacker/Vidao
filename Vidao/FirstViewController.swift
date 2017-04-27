@@ -51,6 +51,12 @@ class FirstViewController: UIViewController, UITextViewDelegate, UITableViewDele
         return result
     }
     
+    //Update Input Area's Height
+    
+    func textViewDidChange(_ textView: UITextView) { //Handle the text changes here
+        self.textViewUpdateHeight(textView: textView)
+    }
+    
     func textViewUpdateHeight(textView : UITextView){
         var amountOfLinesToBeShown:CGFloat = 8
         var maxHeight:CGFloat = textView.font!.lineHeight * amountOfLinesToBeShown
@@ -70,21 +76,21 @@ class FirstViewController: UIViewController, UITextViewDelegate, UITableViewDele
         return lines * heightPixelPerLine
     }
     
-    func textViewDidChange(_ textView: UITextView) { //Handle the text changes here
-        self.textViewUpdateHeight(textView: textView)
-    }
+    //TableView Delegates
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.textMessages.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        cell.textLabel?.text = self.textMessages[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! CustomCell
+        cell.textField.text = self.textMessages[indexPath.row]
         return cell
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
-    }}
+    override func viewWillAppear(_ animated: Bool) {
+        self.tableView.rowHeight = UITableViewAutomaticDimension
+    }
+
+}
 
