@@ -44,6 +44,7 @@ class FirstViewController: UIViewController, UITextViewDelegate, UITableViewDele
         self.textMessages.append(input)
         self.textView.text = ""
         self.tableView.reloadData()
+        self.scrollToBottom()
     }
     
     func postMsg(msg : String) -> Bool{
@@ -95,5 +96,14 @@ class FirstViewController: UIViewController, UITextViewDelegate, UITableViewDele
         self.tableView.estimatedRowHeight = 140
     }
 
+    func scrollToBottom(){
+        
+        let numberOfSections = self.tableView.numberOfSections
+        let numberOfRows = self.tableView.numberOfRows(inSection: numberOfSections-1)
+        
+        let indexPath = IndexPath(row: numberOfRows-1 , section: numberOfSections-1)
+        self.tableView.scrollToRow(at: indexPath, at: UITableViewScrollPosition.middle, animated: true)
+        
+    }
 }
 
