@@ -15,9 +15,13 @@ class SecondViewController: UIViewController {
     
     @IBAction func buttonClicked(_ sender: Any) {
         self.updateNickName(name: textInput.text!)
+        self.nickNameLabel.text = textInput.text!
     }
     
     @IBOutlet weak var textInput: UITextField!
+    
+    @IBOutlet var welcomeLabel: UILabel!
+    @IBOutlet var nickNameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
