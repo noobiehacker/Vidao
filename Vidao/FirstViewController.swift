@@ -21,6 +21,8 @@ class FirstViewController: UIViewController, UITextViewDelegate, UITableViewDele
         super.viewDidLoad()
         self.setUpDatabase()
         textView.delegate = self
+        self.tableView.estimatedRowHeight = 70
+        self.tableView.rowHeight = UITableViewAutomaticDimension
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -84,12 +86,13 @@ class FirstViewController: UIViewController, UITextViewDelegate, UITableViewDele
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! CustomCell
-        cell.textField.text = self.textMessages[indexPath.row]
+        cell.messageLabel.text = self.textMessages[indexPath.row]
         return cell
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.estimatedRowHeight = 140
     }
 
 }

@@ -11,6 +11,8 @@ import UIKit
 
 class CustomCell : UITableViewCell{
 
-    @IBOutlet var textField: UITextField!
+    
+    @IBOutlet var messageLabel: UILabel!
+    
 
 }
