@@ -22,8 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0b-Wa-s08">
-                                <rect key="frame" x="310" y="569" width="65" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0b-Wa-s08">
+                                <rect key="frame" x="339" y="569" width="36" height="30"/>
                                 <color key="backgroundColor" red="0.60424939191825733" green="0.73837901453181787" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Send">
                                     <color key="titleColor" red="0.96103382110595703" green="0.9800792932510376" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -67,9 +67,12 @@
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="TMg-gK-sPu"/>
                                 </connections>
                             </tableView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4So-2B-hte">
-                                <rect key="frame" x="12" y="570" width="290" height="30"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4So-2B-hte">
+                                <rect key="frame" x="12" y="566" width="300" height="35"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="38y-Hx-ovg"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -77,14 +80,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4So-2B-hte" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" constant="12" id="40p-gH-SHV"/>
-                            <constraint firstItem="4So-2B-hte" firstAttribute="top" secondItem="oDa-HZ-Dwm" secondAttribute="bottom" constant="17" id="JQM-fq-vrI"/>
                             <constraint firstItem="oDa-HZ-Dwm" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="Syq-UP-v4L"/>
                             <constraint firstItem="d0b-Wa-s08" firstAttribute="top" secondItem="oDa-HZ-Dwm" secondAttribute="bottom" constant="16" id="XzL-Is-iWR"/>
                             <constraint firstAttribute="trailing" secondItem="oDa-HZ-Dwm" secondAttribute="trailing" id="fCH-Kj-Tl5"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="4So-2B-hte" secondAttribute="bottom" constant="17" id="gI7-AH-uV8"/>
                             <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="d0b-Wa-s08" secondAttribute="bottom" constant="19" id="n2T-NC-BMS"/>
                             <constraint firstAttribute="trailing" secondItem="d0b-Wa-s08" secondAttribute="trailing" id="uL6-p9-Owi"/>
-                            <constraint firstItem="d0b-Wa-s08" firstAttribute="leading" secondItem="4So-2B-hte" secondAttribute="trailing" constant="13" id="vM5-au-c8n"/>
-                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="4So-2B-hte" secondAttribute="bottom" constant="18" id="xXF-7N-C6F"/>
+                            <constraint firstItem="4So-2B-hte" firstAttribute="top" secondItem="oDa-HZ-Dwm" secondAttribute="bottom" constant="13" id="y1v-Rs-cnG"/>
                             <constraint firstItem="oDa-HZ-Dwm" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="zIj-oI-gd4"/>
                         </constraints>
                     </view>

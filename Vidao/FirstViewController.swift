@@ -57,7 +57,15 @@ class FirstViewController: UIViewController, UITextViewDelegate, UITableViewDele
     //Update Input Area's Height
     
     func textViewDidChange(_ textView: UITextView) { //Handle the text changes here
-        self.textViewUpdateHeight(textView: textView)
+        //self.textViewUpdateHeight(textView: textView)
+        self.updateTextViewSize(textView: textView)
+    }
+    
+    func updateTextViewSize(textView: UITextView) {
+        //textView.sizeToFit()
+        textView.layoutIfNeeded()
+        let height = textView.sizeThatFits(CGSize.init(width: textView.frame.size.width, height: CGFloat.greatestFiniteMagnitude)).height
+        textView.contentSize.height = height
     }
     
     func textViewUpdateHeight(textView : UITextView){
