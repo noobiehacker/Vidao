@@ -24,6 +24,9 @@ class SecondViewControllerTest: XCTestCase {
     }
     
     func testUpdateNickname() {
+        let vc = SecondViewController()
+        vc.setUpDatabase()
+        XCTAssertTrue(vc.updateNickName(name: "Another Name"))
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
