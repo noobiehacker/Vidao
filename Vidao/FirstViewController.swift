@@ -57,7 +57,7 @@ class FirstViewController: UIViewController, UITextViewDelegate, UITableViewDele
     func textView(_ textView: UITextView,
                   shouldChangeTextIn range: NSRange,
                   replacementText text: String) -> Bool{
-        return self.getCurrentLineNumbers(textView: textView) < 9
+        return self.getCurrentLineNumbers(textView: textView) < 9 || (text == "")
     }
     
     func expandTextView(textView: UITextView){
