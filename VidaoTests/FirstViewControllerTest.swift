@@ -48,16 +48,5 @@ class FirstViewControllerTest: XCTestCase {
         XCTAssertTrue(result)
     }
     
-    func testTextViewUpdateHeight() {
-        
-    }
     
-    func testListShouldScrollUp() {
-        
-    }
-    
-    func testMessageListHasDynamicHeight(){
-        
-    }
-        
 }

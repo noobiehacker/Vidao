@@ -54,29 +54,26 @@ class FirstViewController: UIViewController, UITextViewDelegate, UITableViewDele
         return result
     }
     
-    //Update Input Area's Height
-    
-    func textViewDidChange(_ textView: UITextView) { //Handle the text changes here
-        //self.textViewUpdateHeight(textView: textView)
-        self.updateTextViewSize(textView: textView)
+    func textView(_ textView: UITextView,
+                  shouldChangeTextIn range: NSRange,
+                  replacementText text: String) -> Bool{
+        return self.getCurrentLineNumbers(textView: textView) < 9
     }
     
-    func updateTextViewSize(textView: UITextView) {
-        //textView.sizeToFit()
+    func expandTextView(textView: UITextView){
         textView.layoutIfNeeded()
         let height = textView.sizeThatFits(CGSize.init(width: textView.frame.size.width, height: CGFloat.greatestFiniteMagnitude)).height
         textView.contentSize.height = height
+    }
+    
+    func getCurrentLineNumbers(textView: UITextView) -> Int{
+        return Int(textView.contentSize.height / (textView.font?.lineHeight)!)
     }
     
     func textViewUpdateHeight(textView : UITextView){
         var amountOfLinesToBeShown:CGFloat = 8
         var maxHeight:CGFloat = textView.font!.lineHeight * amountOfLinesToBeShown
         let size = CGSize.init(width: textView.frame.size.width, height: maxHeight)
-        //textView.frame = textView.sizeThatFits(size)
-    }
-    
-    func updateMessageList() -> Bool{
-        return false
     }
     
     func getTextViewHeight(input : String) -> Int{
